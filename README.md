@@ -42,6 +42,12 @@ New-Item -Path $PROFILE -ItemType File -Force
 notepad $PROFILE
 ```
 
+If error still occurs, run:
+```powershell
+$PROFILE
+```
+Then copy the address, and go to that. If can't visit, then move to previous location and create new folders has the same name.
+
 3. Copy and paste the contents of `sourceCode.ps1` into the notepad and save the file.
 
 ### D) Run the Script
